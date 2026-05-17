@@ -1,7 +1,7 @@
 #pragma once
 #include <stdint.h>
 
-#define HEAT_NUM_CH 16
+#define HEAT_NUM_CH 4
 
 void heat_init(void);
 void heat_add(uint8_t ch, uint32_t energy);
