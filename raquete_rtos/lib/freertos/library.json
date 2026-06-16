@@ -1,0 +1,9 @@
+{
+  "name": "freertos",
+  "version": "11.1.0",
+  "description": "FreeRTOS-Kernel V11.1.0 — port GCC/ARM_CM4F + heap_4",
+  "build": {
+    "includeDir": "include",
+    "srcFilter": ["+<*.c>"]
+  }
+}
